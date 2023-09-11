@@ -41,8 +41,8 @@ st.markdown("<p style = 'top margin: 0rem; 'text align: justify; color: #AED2FF'
 # sns.heatmap(correlation_data.corr(), annot = True, cmap = 'BuPu')
 
 # st.write(heat_map)
-# data.drop('Unnamed: 0', axis = 1, inplace = True)
-# st.write(data.sample(10))
+data.drop('Unnamed: 0', axis = 1, inplace = True)
+st.write(data.sample(10))
 
 st.sidebar.image('pngwing.com.png', width = 100, caption= f"Welcome {username}", use_column_width= True)
 
